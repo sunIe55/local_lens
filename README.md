@@ -17,7 +17,7 @@
 
 ## 📸 Screenshot
 
-![LocalLens Screenshot](./screenshot.png)
+![LocalLens Screenshot](./locallens.png)
 
 ---
 
