@@ -49,7 +49,7 @@
 
 --
 
-  🎯 Future Features
+# 🎯 Future Features
 🔍 Search bar to explore events in other cities
 
 👥 User-submitted events with moderation
