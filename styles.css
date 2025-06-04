@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body, html{
   margin: 0;
   font-family: sans-serif;
@@ -64,4 +65,70 @@ main {
   line-height: 300px;
   color: #555;
   font-size: 24px;
+=======
+body{
+  margin: 0;
+  font-family: sans-serif;
+  background-color:#f0f2f5;
+}
+
+header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color:#1b2a47;
+  color:white;
+  padding: 10px 20px;
+}
+
+.logo-button{
+background:none;
+border:none;
+color:white;
+font-size: 20px;
+cursor: pointer;
+font-weight: bold;
+}
+
+.nav-buttons{
+  display: flex;
+  gap: 10px;
+}
+
+.nav-btn{
+  background-color: #2c3e60;
+  border: none;
+  color: white;
+  padding: 8px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.nav-btn:hover,
+.nav-btn.active {
+  background-color: #375a8c;
+}
+
+.tagline {
+  text-align: center;
+  padding: 10px;
+  color: #333;
+  font-size: 16px;
+}
+
+main {
+  height: calc(100vh - 120px);
+  width: 100%;
+}
+
+#map {
+  height: 100%;
+  width: 100%;
+  background-color: #d0d0d0;
+  text-align: center;
+  line-height: 300px;
+  color: #555;
+  font-size: 24px;
+>>>>>>> 759092b (git add local_lens.html script.js styles.css)
 }
