@@ -31,3 +31,19 @@
 | **Tools**     | Geolocation API, Haversine formula for proximity, Custom markers |
 
 ---
+
+
+# 🧠 How It Works
+- The browser asks for your current location
+
+- Once permission is granted, it:
+
+- Centers the map on your area
+
+- Calls APIs to get nearby events and news headlines
+
+- Filters them by distance (e.g., 10 km radius)
+
+- Displays markers on the map only for active, local data
+
+- The app refreshes the data periodically to simulate real-time updates
