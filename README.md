@@ -49,16 +49,6 @@
 
 --
 
-/locallens
-  ├── index.html
-  ├── styles.css
-  ├── script.js
-  ├── /assets
-  │     └── icons/
-  └── README.md
-
-  --
-
   🎯 Future Features
 🔍 Search bar to explore events in other cities
 
@@ -70,6 +60,3 @@
 
 🧠 AI-based tagging of news/events by relevance
 
---
-
-MIT License — feel free to use, modify, and build upon LocalLens.
