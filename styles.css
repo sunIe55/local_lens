@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 body, html{
   margin: 0;
   font-family: sans-serif;
@@ -65,11 +64,6 @@ main {
   line-height: 300px;
   color: #555;
   font-size: 24px;
-=======
-body{
-  margin: 0;
-  font-family: sans-serif;
-  background-color:#f0f2f5;
 }
 
 header{
@@ -123,12 +117,12 @@ main {
 }
 
 #map {
-  height: 100%;
+  height: calc(100vh - 100px); /* fits with header and tagline */
   width: 100%;
   background-color: #d0d0d0;
   text-align: center;
   line-height: 300px;
   color: #555;
   font-size: 24px;
->>>>>>> 759092b (git add local_lens.html script.js styles.css)
+
 }
