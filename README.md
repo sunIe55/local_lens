@@ -32,7 +32,6 @@
 
 ---
 
-
 # 🧠 How It Works
 - The browser asks for your current location
 
@@ -48,7 +47,6 @@
 
 - The app refreshes the data periodically to simulate real-time updates
 
-
 --
 
 /locallens
@@ -59,9 +57,7 @@
   │     └── icons/
   └── README.md
 
-
   --
-
 
   🎯 Future Features
 🔍 Search bar to explore events in other cities
@@ -73,7 +69,6 @@
 📱 Progressive Web App (PWA) version
 
 🧠 AI-based tagging of news/events by relevance
-
 
 --
 
