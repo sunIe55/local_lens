@@ -47,3 +47,34 @@
 - Displays markers on the map only for active, local data
 
 - The app refreshes the data periodically to simulate real-time updates
+
+
+--
+
+/locallens
+  ├── index.html
+  ├── styles.css
+  ├── script.js
+  ├── /assets
+  │     └── icons/
+  └── README.md
+
+
+  --
+
+
+  🎯 Future Features
+🔍 Search bar to explore events in other cities
+
+👥 User-submitted events with moderation
+
+🔔 Push/local notifications for nearby alerts
+
+📱 Progressive Web App (PWA) version
+
+🧠 AI-based tagging of news/events by relevance
+
+
+--
+
+MIT License — feel free to use, modify, and build upon LocalLens.
