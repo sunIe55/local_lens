@@ -83,7 +83,7 @@ setInterval(() => {
 document.addEventListener("DOMContentLoaded", () => {
   const defaultCoords = [37.7749, -122.4194]; // Fallback to SF
   const zoomLevel = 13;
-  const newsApiKey = '750520aa22fe4c46bbede051400a2d39'; // 
+  const newsApiKey = '750520aa22fe4c46bbede051400a2d39'; // 🔑 Replace with your NewsAPI key
 
   const smallIcon = L.icon({
     iconUrl: 'https://unpkg.com/leaflet@1.9.4/dist/images/marker-icon.png',
@@ -145,5 +145,14 @@ document.addEventListener("DOMContentLoaded", () => {
       })
       .catch(err => console.error("Failed to fetch news:", err));
   }
+  setInterval(() => {
+  map.eachLayer(layer => {
+    if (layer instanceof L.Marker && !layer._popup) {
+      map.removeLayer(layer); // Keep "You are here" marker
+    }
+  });
+  fetchNewsAndPlaceMarkers(map.getCenter().lat, map.getCenter().lng);
+}, 300000); // every 5 minutes
+
 });
 
