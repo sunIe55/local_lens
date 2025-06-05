@@ -47,7 +47,7 @@
 
 - The app refreshes the data periodically to simulate real-time updates
 
---
+
 
 # 🎯 Future Features
 🔍 Search bar to explore events in other cities
@@ -56,6 +56,9 @@
 
 🔔 Push/local notifications for nearby alerts
 
+
+exclude:
+  - README.md
 📱 Progressive Web App (PWA) version
 
 🧠 AI-based tagging of news/events by relevance
