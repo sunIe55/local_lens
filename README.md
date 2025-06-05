@@ -56,10 +56,10 @@
 
 🔔 Push/local notifications for nearby alerts
 
-
-exclude:
-  - README.md
 📱 Progressive Web App (PWA) version
 
 🧠 AI-based tagging of news/events by relevance
 
+
+exclude:
+  - README.md
